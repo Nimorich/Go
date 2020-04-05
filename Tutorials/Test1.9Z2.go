@@ -9,7 +9,7 @@ func main() {
 	middleNum = (num / 10) - (firstNum * 10)
 	finalNum = num % 10
 	fmt.Println(firstNum, middleNum, finalNum)
-	if firstNum != finalNum && finalNum != middleNum {
+	if firstNum != finalNum && finalNum != middleNum && firstNum != middleNum {
 		fmt.Print("YES")
 	} else {
 		fmt.Print("NO")
