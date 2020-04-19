@@ -11,7 +11,8 @@ package main
 import "fmt"
 
 func main() {
-	var a int = 1
+	var a int
+	a = 1
 	var b, count int
 	for a != 0 {
 		fmt.Scan(&a)
