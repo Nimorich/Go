@@ -17,7 +17,8 @@ type Account struct {
 
 func main() {
 	//полное объявление структуры
-	var acc Account = Account{
+	var acc Account
+	acc = Account{
 		Id:   1,
 		Name: "rvasily",
 		Person: Person{

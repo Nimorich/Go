@@ -4,7 +4,8 @@ import "fmt"
 
 func main() {
 	//простое условие
-	var boolVal bool = true
+	var boolVal bool
+	boolVal = true
 	if boolVal {
 		fmt.Println("boolVal is true")
 	}
